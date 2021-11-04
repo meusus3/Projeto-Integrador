@@ -1,31 +1,14 @@
 package meusus;
 
 public class MeuSus {
-
     public static void main(String[] args) {
-        Paciente psc = new Paciente();
-        psc.nome = "Ana";
-        psc.cpf = 000000000;
-        psc.datanasc = "20/01/1994";
-        psc.sexo = "Feminino";
-        psc.endpac = 00000000;
-        psc.email = "ana@gmail.com";
-        psc.celular = 000000000;
+        Paciente psc = new Paciente("Ana", "Feminino", "ana@gmail.com", "21/03/1996");
         psc.status();
         
-        Agendamento agen = new Agendamento();
-        agen.hospital = "Hospital Regional";
-        agen.data = "20/11/2021";
-        agen.horário = "11:00";
+        Agendamento agen = new Agendamento("Hospital Regional", "20/11/2021", "11:00", "Doutora Juliana");
         agen.status();
         
-        Detalhes_Agendamento detAgen = new Detalhes_Agendamento();
-        detAgen.exame = "Teste  de COVID19";
+        Detalhes_Agendamento detAgen = new Detalhes_Agendamento("verificar se tem consulta", "");
         detAgen.status();
-        
-        Consulta cons = new Consulta();
-        cons.idConsulta = "se tem Consulta";
-        cons.status();
     }
-
 }

@@ -6,7 +6,7 @@ public class Agendamento {
     protected String horário;
     protected String hospital;
 
-    public Agendamento(String hospital, String data, String horário, String medico) {
+    public Agendamento(String hospital, String data, String horário, String médico) {
         this.hospital = hospital;
         this.data = data;
         this.horário = horário;

@@ -8,7 +8,7 @@ public class MeuSus {
         Agendamento agen = new Agendamento("Hospital Regional", "20/11/2021", "11:00", "Doutora Juliana");
         agen.status();
         
-        Detalhes_Agendamento detAgen = new Detalhes_Agendamento("verificar se tem consulta", "");
+        Detalhes_Agendamento detAgen = new Detalhes_Agendamento("verificar se tem consulta");
         detAgen.status();
     }
 }

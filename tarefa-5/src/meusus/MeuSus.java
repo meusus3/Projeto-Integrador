@@ -12,3 +12,14 @@ public class MeuSus {
         detAgen.status();
     }
 }
+
+/**
+ * Alunos:
+ * 
+ * Glauber Felipe Costa Silva RA: 12110440
+ * 
+ * Michelle Mendes de Carvalho RA: 10820489
+ * 
+ * Rafael Soares Miranda Oliveira RA: 12108150
+ * 
+ */
